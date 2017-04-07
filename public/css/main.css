@@ -1,0 +1,7 @@
+/*Core stylesheets*/
+@import url("vendor/bootstrap/3.3.1/css/bootstrap.min.css");
+@import url("vendor/font-awesome/font-awesome.css");
+@import url("vendor/jqueryui/themes/base/jquery-ui.css");
+@import url("vendor/adobeBlank/adobe-blank.css");
+@import url("vendor/globalassets/styles/global-template.scss");
+@import url("app/starter-template.css");

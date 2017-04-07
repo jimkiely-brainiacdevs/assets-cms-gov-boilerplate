@@ -1,0 +1,11 @@
+// scss-lint:disable ImportantRule
+
+// Visibility
+
+@mixin invisible {
+    visibility: hidden !important;
+}
+
+@mixin visible {
+    visibility: visible !important;
+}

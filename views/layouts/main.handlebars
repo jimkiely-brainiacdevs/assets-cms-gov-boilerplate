@@ -1,0 +1,79 @@
+﻿<!DOCTYPE HTML>
+<!--[if lt IE 8]><html class="no-js oldIE" lang="en-US"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en-US"><![endif]-->
+<!--[if IE 9]><html class="no-js ie9" lang="en-US"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en-US" class="no-js not-ie">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Assets Framework</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="/static/css/main.css">
+    <!-- endbuild -->
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/static/js/vendor/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+</head>
+<body>
+    <header class="navbar navbar-fixed-top navbar-inverse bg-inverse" role="banner">
+        <div class="container">
+            <a class="skip-navigation sr-only sr-only-focusable" href="#page-title">Skip Navigation</a>
+            <div class="navbar-header active">
+                <a class="navbar-brand brand pull-left" href="#">
+                    Company X
+                    <span class="sr-only"> selected</span>
+                </a>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topNavList" aria-expanded="false">
+                    <span class="adobeBlank" aria-hidden="true">Expand Navigation</span>
+                    <em class="fa fa-bars fa-lg" style="font-family :'FontAwesome' !important">
+                        <span id="expandText" class="sr-only">Expand Navigation</span>
+                    </em>
+                </button>
+            </div>
+            <nav class="collapse navbar-collapse" aria-label="Main navigation" id="topNavList" aria-expanded="false">
+                <ul class="nav navbar-nav navbar-right" aria-expanded="false">
+
+                    <li>
+                        <a href="/about">
+                            About Us
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#contactus">
+                            Contact Us
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#resources">
+                            Resources
+                        </a>
+                    </li>
+
+                    
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- begin Main -->
+    <main role="main" aria-label="main section" id="main-content">
+
+        {{{body}}}
+
+    </main>
+
+    <!-- begin footer-->
+    <footer class="footer" role="contentinfo"></footer>
+    <!-- end footer -->
+    <!-- build:js scripts/main.js -->
+    <script data-main="/static/js/app" src="/static/js/vendor/requirejs/require.js"></script>
+    <!-- endbuild -->
+</body>
+</html>
