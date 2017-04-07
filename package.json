@@ -1,7 +1,7 @@
 {
-  "name": "express-handlebars-test",
+  "name": "assets-cms-gov-boilerplate",
   "version": "1.0.0",
-  "description": "Testing handlebars and express",
+  "description": "Boilerplate for assets.cms.gov that is implemented with node.js, express, and handlebars.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
